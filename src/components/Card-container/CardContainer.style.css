@@ -1,0 +1,33 @@
+.CardContainer {
+	position: absolute;
+	top: 15%;
+	left: 12%;
+	width: 75%;
+	padding-top: 50px;
+	min-height: 460px;
+}
+
+.AddButton {
+	font-size: 30px;
+	padding: 0 8px;
+	position: absolute;
+	background: black;
+	border: none;
+	outline: none;
+	color: white;
+	right: 10px;
+	top: 10px;
+	border-radius: 5px;
+}
+.AddButton:hover {
+	cursor: pointer;
+}
+
+.CardStyle {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.AddButton:active {
+	transform: scale(0.8);
+}
